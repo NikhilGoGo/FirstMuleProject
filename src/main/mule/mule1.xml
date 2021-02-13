@@ -15,7 +15,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 				<ee:set-payload ><![CDATA[%dw 2.0
 output application/json
 ---
-"Message":"This is my Mule-1 project"]]></ee:set-payload>
+"Message":"This is my Mule-1 project [Changed transform message]"]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
 		<logger level="INFO" doc:name="Logger" doc:id="0b2483e5-91ce-49b3-81ea-b12830fa2f33" message="#[payload]"/>
